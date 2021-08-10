@@ -11,15 +11,12 @@ body {
 
 .img {
   background: url("../assets/test_pic.jpg");
-  height: 100vh;
+  height: 120vh;
   /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
-  width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: fixed;
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
   /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
   /* z-index: 0; */
 }
