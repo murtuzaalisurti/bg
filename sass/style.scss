@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background: url("https://source.unsplash.com/featured/?nature");
+    // background: url("https://source.unsplash.com/featured/?nature");
+    background: url("../assets/test_pic.jpg");
     height: 100vh; /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
     // width: 100vw;
     background-repeat: no-repeat;
