@@ -4,19 +4,26 @@
     box-sizing: border-box;
 }
 body{
-    height: 100%;
-}
-.img{
     background: url("https://source.unsplash.com/featured/?nature");
     height: 100vh; /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
+    // width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    // height: 100%;
+}
+/*.img{
+    background: url("https://source.unsplash.com/featured/?nature");
+    height: 100vh; /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll 
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: fixed;
     /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
-    /* z-index: 0; */
-}
+    /* z-index: 0; 
+}*/
 .content{
     position: absolute;
     margin-top: 5rem;
