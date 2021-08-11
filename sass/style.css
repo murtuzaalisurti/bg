@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(335deg, #ff8c6b 0%, #ffe4a8 100%);
+  background: url("../assets/test_pic.jpg");
   height: 100vh;
   /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
   background-repeat: no-repeat;
@@ -27,7 +27,6 @@ body {
 /* z-index: 0; 
 }*/
 .content {
-  position: absolute;
   margin-top: 5rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
