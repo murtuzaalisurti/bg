@@ -10,7 +10,7 @@ body {
 }
 
 .img {
-  background: url("../assets/test_pic.jpg");
+  background: linear-gradient(335deg, #ff8c6b 0%, #ffe4a8 100%);
   height: 110vh;
   /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
   width: 100vw;
