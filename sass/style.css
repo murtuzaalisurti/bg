@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url("../assets/test_pic.jpg");
+  background: #784898;
   height: 100vh;
   /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
   background-repeat: no-repeat;
