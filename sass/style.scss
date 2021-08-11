@@ -10,9 +10,9 @@ body{
 }
 .img{
     // background: url("https://source.unsplash.com/featured/?nature");
-    // background: url($image_url);
-    background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
-    height: 110vh; /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
+    background: url($image_url);
+    // background: linear-gradient(335deg, rgba(255,140,107,1) 0%, rgba(255,228,168,1) 100%);
+    height: 100vh; /* height > 100vh (probably 120vh) for Mobile Browsers to prevent "visible" cumulative layout shift on scroll */
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,8 +36,8 @@ body{
     margin-bottom: 2rem;
     padding: 2rem;
 }
-@media only screen{
-  .img{
-    height: 120vh;
-  }
-}
+// @media only screen{
+//   .img{
+//     height: 120vh;
+//   }
+// }
